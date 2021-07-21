@@ -1,0 +1,18 @@
+service: fgserveless
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: java8
+  region: us-east-1
+package:
+  artifact: lambda-0.1.0-SNAPSHOT-standalone.jar
+
+functions:
+  caculation:
+    handler: hello::handler
+    events:
+      - http:
+          path: /event/resolveExpr
+          method: any
