@@ -13,6 +13,6 @@ functions:
   caculation:
     handler: hello::handler
     events:
-      - http:
+      - httpApi:
           path: /event/resolveExpr
           method: any
