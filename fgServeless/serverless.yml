@@ -7,7 +7,7 @@ provider:
   runtime: java8
   region: us-east-1
 package:
-  artifact: lambda-0.1.0-SNAPSHOT-standalone.jar
+  artifact: target/lambda-0.1.0-SNAPSHOT-standalone.jar
 
 functions:
   caculation:
