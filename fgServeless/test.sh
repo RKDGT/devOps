@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-URL="https://s0crtgpmsi.execute-api.us-east-1.amazonaws.com/dev/event/resolveExpr"
+URL="https://hj78qgqk09.execute-api.us-east-1.amazonaws.com/event/resolveExpr"
 
 
 # curl -XGET $URL
